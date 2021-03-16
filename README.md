@@ -25,7 +25,7 @@ NOTE: The images and logos displayed in the linked PDFs may be protected, tradem
 
 ## Requirements
 
-* [Asciidoctor[(https://asciidoctor.org/)
+* [Asciidoctor](https://asciidoctor.org/)
 * Asciidoctor PDF
 * Bash (for [pdfconverter.sh](pdfconverter.sh))
 
@@ -36,7 +36,7 @@ The installation of the theme is quite straightforward. Just clone this reposito
 Simply install `asciidoctor` and `asciidoctor-pdf` with your distribution's package manager (e.g. `apt-get`). Should that not work for you, install `ruby` and call `gem install asciidoctor` and `gem install asciidoctor-pdf` in the shell.
 
 ### Windows Users
-For ruby users, this might be a bit trickier. Here, you can start by installing the [RubyInstaller](https://rubyinstaller.org) and then run `gem install asciidoctor` and `gem install asciidoctor-pdf` in the shell (e.g. PowerShell). To run the `pdfconverter.sh` script, you may need to install [Cygwin](httpw://cygwin.com). Alternatively, use a Linux distribution on your Windows machine using WSL, e.g. [Debian for WSL](https://www.microsoft.com/en-us/p/debian/9msvkqc78pk6) and proceed as described above for Linux users.
+For Windows users, this might be a bit trickier. Here, you can start by installing the [RubyInstaller](https://rubyinstaller.org) and then run `gem install asciidoctor` and `gem install asciidoctor-pdf` in the shell (e.g. PowerShell). To run the `pdfconverter.sh` script, you may need to install [Cygwin](httpw://cygwin.com). Alternatively, use a Linux distribution on your Windows machine using WSL, e.g. [Debian for WSL](https://www.microsoft.com/en-us/p/debian/9msvkqc78pk6) and proceed as described above for Linux users.
 
 ### Usage
 The classic usage (without `pdfconverter.sh`) is pretty straightforward as it is. Just call the following on your shell:
@@ -82,7 +82,9 @@ CAUTION: The latest option may overwrite previously entered ones.
 The themes are to be used to generate PDFs from AsciiDoc files. AsciiDoc files are just plaintext files written with the AsciiDoc syntax, slightly similar to but not the same as markdown. The sample `.adoc` files within this repository are written in AsciiDoc. You may find further information within the [AsciiDoc Quick Reference](https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/).
 
 ## Authors
-These themes and the shell script were written by [Kasim Dönmez](https://github.com/mkasimd) on behalf of the Liberale Demokraten - Die Sozialliberalen.
+The themes, documents and the shell script were written by [Kasim Dönmez](https://github.com/mkasimd) on behalf of the Liberale Demokraten - Die Sozialliberalen.
 
 ## Copyright
-Copyright © 2020 - present Liberale Demokraten - Die Sozialliberalen. Free use of this theme and the bash script is granted under the utilized license. For the full text of the license, see the [LICENSE](LICENSE.txt) file. Please note that some ressources such as images and fonts, if present, might be licensed under different terms.
+Copyright © 2020 - present Liberale Demokraten - Die Sozialliberalen. Free use of this theme and the bash script is granted under the terms of the MIT license. For the full text of the license, see the [LICENSE.txt](LICENSE.txt) file. All documents such as adoc and PDF files with the exception of the software documentation and the software itself are licensed under [CC BY-SA 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/). Please note that some resources such as images and fonts, if present, might be licensed under different terms and be otherwise copyrighted or trademarked.
+
+The use of the resources provided by this project shall be done in a way that your modifications to the code, distribution thereof or use of the provided files does not imply any endorsement by the authors or copyright holders of this project. You shall not use this project or contents thereof in the name of the authors or copyright holders unless explicitly permitted.

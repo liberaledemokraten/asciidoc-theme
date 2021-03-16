@@ -4,7 +4,7 @@ Following fonts are required:
 
 * [Atkinson Hyperlegible](https://brailleinstitute.org/freefont)
 * [Barlow](https://github.com/jpt/barlow)
-* [M+ 1mn & M+ 2p](mplus-fonts.osdn.jp/about-en.html)
+* [M+ 1mn & M+ 2p](https://mplus-fonts.osdn.jp/about-en.html)
 * [Vollkorn](https://github.com/FAlthausen/Vollkorn-Typeface)
 * [OpenMoji](https://openmoji.org/)
 
