@@ -38,7 +38,8 @@ Simply install `asciidoctor` and `asciidoctor-pdf` with your distribution's pack
 ### Windows Users
 For Windows users, this might be a bit trickier. Here, you can start by installing the [RubyInstaller](https://rubyinstaller.org) and then run `gem install asciidoctor` and `gem install asciidoctor-pdf` in the shell (e.g. PowerShell). To run the `pdfconverter.sh` script, you may need to install [Cygwin](httpw://cygwin.com). Alternatively, use a Linux distribution on your Windows machine using WSL, e.g. [Debian for WSL](https://www.microsoft.com/en-us/p/debian/9msvkqc78pk6) and proceed as described above for Linux users.
 
-### Usage
+## Usage
+### With just Asciidoctor PDF
 The classic usage (without `pdfconverter.sh`) is pretty straightforward as it is. Just call the following on your shell:
 
 ```sh
@@ -47,13 +48,14 @@ $ asciidoctor-pdf -a pdf-theme=ld-theme_plain.yml -a pdf-fontsdir=fonts/ documen
 
 The output will be `document.pdf` in the same direcotry.
 
+### With the Provided Script
 However, with the `pdfconverter.sh` script, the usage is slightly easier:
 
 ```sh
 $ bash pdfconverter.sh document.adoc
 ```
 
-The above line equals to the same as the first example. With the script however, you can also easily specify which theme to use with that bash script:
+The above line equals to the same as the first example. With the script however, you can also easily specify which theme to use with the script:
 
 ```
 Usage: bash pdfconverter.sh document.adoc [options]
