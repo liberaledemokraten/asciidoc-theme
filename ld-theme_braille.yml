@@ -1,0 +1,114 @@
+#titel                  : ld-theme_braille.yml
+#beschreibung           : Dies ist ein AsciiDoc Theme für die Liberalen Demokraten,
+#                         das das Atkinson Hyperlegible Font des Braille Institute nutzt.
+#autor                  : Kasim Dönmez
+#datum                  : 20210316
+#nutzweise              : asciidoctor-pdf -a pdf-theme=ld-theme_braille.yml -a pdf-fontsdir=fonts/ document.adoc
+#bemerkungen            : Installiere `asciidoctor` und `asciidoctor-pdf` um dieses Theme zu nutzen.
+#
+#abhängigkeiten:
+#asciidoctor_version    : 2.0
+#ruby_version           : 2.6
+#==============================================================================
+
+extends: default
+font:
+  catalog:
+    Atkinson:
+      normal: Atkinson-Hyperlegible-regular.ttf
+      italic: Atkinson-Hyperlegible-italic.ttf
+      bold: Atkinson-Hyperlegible-bold.ttf
+      bold_italic: Atkinson-Hyperlegible-bold_italic.ttf
+    M+ 1mn:
+      normal: mplus-1mn-regular.ttf
+      bold: mplus-1mn-bold.ttf
+      italic: mplus-1mn-regular.ttf
+      bold_italic: mplus-1mn-regular.ttf
+    M+ 2p:
+      normal: mplus-2p-regular.ttf
+      bold: mplus-2p-bold.ttf
+      italic: mplus-2p-regular.ttf
+      bold_italic: mplus-2p-regular.ttf
+    openmoji:
+      normal: OpenMoji-Black.ttf
+      bold: OpenMoji-Black.ttf
+      italic: OpenMoji-Black.ttf
+      bold_italic: OpenMoji-Black.ttf
+  fallbacks:
+    - M+ 2p
+    - M+ 1mn
+    - openmoji
+base:
+  # ld-black
+  font-color: #151721
+  font-family: Atkinson
+  font-style: normal
+  font-size: 14
+title-page:
+  font-color: #000000
+  font-family: Atkinson
+  font-style: bold
+  background-image: image:images/braille-cover.png[100%]
+  title:
+    font-family: Atkinson
+    font-style: bold
+    font-color: #000000
+    font-size: 32
+  logo:
+    align: right
+    image: image:images/logo.png[pdfwidth=45%]
+    top: 5%
+  authors:
+    font-size: 14
+toc:
+  title:
+    font-size: 27
+  font-family: Atkinson
+heading:
+  h1-align: left
+  h1-font-color: #000000
+  h2-font-color: #000000
+  h3-font-color: #000000
+  h4-font-size: 16
+  h5-font-size: 14
+  font-color: #000000
+  font-family: Atkinson
+  font-style: bold
+page:
+  heading-1:
+    break:
+      before: true
+      after: false
+  heading-2:
+    break:
+      before: false
+      after: false
+link:
+  font-color: #000000
+  font-style: bold
+  text-decoration: none
+footnotes:
+  font-color: #000000
+  font-family: Atkinson
+  font-style: normal
+admonition:
+  icon:
+    note:
+      stroke-color: #000000
+    warning:
+      stroke-color: #000000
+    tip:
+      stroke-color: #000000
+    important:
+      stroke-color: #000000
+    caution:
+      stroke-color: #000000
+footer:
+  font-family: Atkinson
+  font-color: #000000
+  recto:
+    left:
+      content: 'Liberale Demokraten - Die Sozialliberalen'
+  verso:
+    right:
+      content: 'Liberale Demokraten - Die Sozialliberalen'

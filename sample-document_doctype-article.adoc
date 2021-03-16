@@ -1,0 +1,95 @@
+= Titel der Publikation
+Autor <author@liberale-demokraten.de>; Co-Autor <co-author@liberale-demokraten.de>
+v4.1, Stand: 16. März 2021
+:doctype: article
+:icons: font
+
+NOTE: Dies ist ein regulärer Hinweis.
+
+WARNING: Dies ist eine Warnung.
+
+IMPORTANT: Ein wichtiger Hinweis.
+
+CAUTION: Achtung, das wird brenzlig!
+
+TIP: Dagegen haben wir aber ein Tip.
+
+## Übergeordnetes Thema
+
+Beschreibung des Themenfeldes, und ihre Relevanz. Lorem Ipsum und so weiter und so fort et cetera perge, perge und weitere, sowie ähnliche Sachen. Mehr dazu in den unteren Abschnitten.
+
+### I. Thema
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla arcu nisi, fringilla nec pharetra ac, dictum eget lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam viverra lectus nec erat viverra gravida. Nulla leo dolor, tristique elementum tempor sed, malesuada eget libero. Praesent congue, ipsum nec elementum tristique, dui enim fermentum nunc, in eleifend felis arcu at nulla. In augue massa, lobortis in fermentum non, euismod vel libero.
+
+#### Unterthema 1
+Mauris feugiat porta tincidunt. Cras eget dui diam, a viverra tortor. Proin dictum, diam ut vulputate imperdiet, enim nulla blandit est, in accumsan erat nisl in dolor. Nunc ante orci, tincidunt non luctus quis, congue a sem. Nulla non vehicula nisi. Vestibulum suscipit egestas massa eget convallis. Curabitur sapien magna, imperdiet eu consequat non, bibendum vel magna. Nulla neque lectus, lacinia vitae commodo scelerisque, tempus sit amet tellus. In semper arcu ut massa egestas posuere.
+
+
+#### Unterthema 2
+Noch mehr Text... Oder doch lieber mal etwas anderes als Fließtext?
+
+.Tabellentitel
+|===
+|Bezeichnung der Spalte 1 |Bezeichnung der Spalte 2 |Bezeichnung der Spalte 3 
+
+|Zelle in Spalte 1, Zeile 1 |Zelle in Spalte 2, Zeile 1 |Zelle in Spalte 3, Zeile 1
+|Zelle in Spalte 1, Zeile 2 |Zelle in Spalte 2, Zeile 2 |Zelle in Spalte 3, Zeile 2
+|===
+
+##### Unterthema 2.1
+Hier zeigen wir mal gleich am besten wie Aufzählungen aussehen.
+
+// Dies ist ein Kommentar. Direkt hierunter ist ein Seitenumbruch
+<<<
+.Eine Aufzählung
+. erster Punkt
+. zweiter Punkt
+.. erster Unterpunkt
+.. zweiter Unterpunkt
+.. dritter Unterpunkt
+... weiterer Unterpunkt
+... noch ein Unter-Unterpunkt
+.... sogar noch tiefer
+.... ita est
+. dritter Punkt
+
+// linebreak
+[%hardbreaks] 
+
+[%reversed]
+.Eine verkerhte Aufzählung
+. erster Punkt
+. zweiter Punkt
+.. erster Unterpunkt
+.. zweiter Unterpunkt
+.. dritter Unterpunkt
+... weiterer Unterpunkt
+... noch ein Unter-Unterpunkt
+.... sogar noch tiefer
+.... ita est
+. dritter Punkt
+
+[%hardbreaks]
+
+Das geht natürlich auch mit einer ungeordneten Liste:
+
+* erster Punkt
+* zweiter Punkt
+** erster Unterpunkt
+** zweiter Unterpunkt
+** dritter Unterpunkt
+*** weiterer Unterpunkt
+*** noch ein Unter-Unterpunkt
+**** sogar noch tiefer
+**** ita est
+* dritter Punkt
+
+### II. Thema
+A very bad quack might jinx zippy fowls. Pellentesque ac felis eu tortor convallis iaculis vitae eget neque. Franz jagt im komplett verwahrlosten Taxi quer durch Bayern. Das alles ergibt keinen Sinn? Naja, hier gibt es sowieso nur Fülltexte zu lesen. Sinnvolleres kannst du auf der Webseite der link:https://liberale-demokraten.de[Liberalen Demokraten] finden stattdessen. Zu guter Letzt gibt es dann aber noch ein Zitat:
+
+> Wir wollen mehr Demokratie wagen. Wir werden unsere Arbeitsweise öffnen und dem kritischen Bedürfnis nach Information
+> Genüge tun. Wir werden darauf hinwirken, daß nicht nur durch Anhörungen im Bundestag, sondern  auch  durch  ständige
+> Fühlungnahme mit  den  repräsentativen  Gruppen unseres Volkes und durch eine umfassende Unterrichtung über die
+> Regierungspolitik jeder Bürger die Möglichkeit erhält, an der Reform von Staat und Gesellschaft mitzuwirken.
+> -- (Auszug aus der Regierungserklärung von Bundeskanzler Willy Brandt vor dem Deutschen Bundestag in Bonn am 28. Oktober 1969)
+

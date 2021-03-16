@@ -1,0 +1,120 @@
+#titel                  : ld-theme_compass.yml
+#beschreibung           : Dies ist ein AsciiDoc Theme für die Liberalen Demokraten.
+#autor                  : Kasim Dönmez
+#datum                  : 20210316
+#nutzweise              : asciidoctor-pdf -a pdf-theme=ld-theme_compass.yml -a pdf-fontsdir=fonts/ document.adoc
+#bemerkungen            : Installiere `asciidoctor` und `asciidoctor-pdf` um dieses Theme zu nutzen.
+#
+#abhängigkeiten:
+#asciidoctor_version    : 2.0
+#ruby_version           : 2.6
+#==============================================================================
+
+extends: default
+font:
+  catalog:
+    Barlow:
+      normal: Barlow-regular.ttf
+      italic: Barlow-italic.ttf
+      bold: Barlow-bold.ttf
+      bold_italic: Barlow-bold_italic.ttf
+    Vollkorn:
+      normal: Vollkorn-regular.ttf
+      italic: Vollkorn-italic.ttf
+      bold: Vollkorn-bold.ttf
+      bold_italic: Vollkorn-bold_italic.ttf
+    M+ 1mn:
+      normal: mplus-1mn-regular.ttf
+      bold: mplus-1mn-bold.ttf
+      italic: mplus-1mn-regular.ttf
+      bold_italic: mplus-1mn-regular.ttf
+    M+ 2p:
+      normal: mplus-2p-regular.ttf
+      bold: mplus-2p-bold.ttf
+      italic: mplus-2p-regular.ttf
+      bold_italic: mplus-2p-regular.ttf
+    openmoji:
+      normal: OpenMoji-Color.ttf
+      bold: OpenMoji-Color.ttf
+      italic: OpenMoji-Color.ttf
+      bold_italic: OpenMoji-Color.ttf
+  fallbacks:
+    - Vollkorn
+    - M+ 2p
+    - M+ 1mn
+    - openmoji
+base:
+  # grey
+  font-color: #212529
+  font-family: Vollkorn
+  font-style: normal
+  font-size: 11
+lead:
+  font-size: 11
+title-page:
+  # ld-orange
+  font-color: #FFFFFF
+  font-family: Barlow
+  font-style: bold
+  align: center
+  background-image: image:images/compass-cover.png[100%]
+  right: 15%
+  authors:
+    font-color: #FFFFFF
+    align: center
+  title:
+    font-color: #FFFFFF
+    font-family: Barlow
+    font-style: bold
+    font-size: 36
+    align: center
+    top: 82%
+  logo:
+    align: right
+    image: image:images/logo.png[pdfwidth=45%]
+    top: 10%
+toc:
+  title:
+    font-size: 27
+  font-family: Barlow
+heading:
+  h1-font-color: #F98113
+  h2-font-color: #F98113
+  h3-font-color: #F98113
+  font-color: #010038
+  font-family: Barlow
+  font-style: bold
+page:
+  heading-1:
+    break:
+      before: true
+      after: false
+  heading-2:
+    break:
+      before: false
+      after: false
+link:
+  font-color: #F98113
+  text-decoration: none
+footnotes:
+  font-color: #010038
+  font-family: Vollkorn
+  font-style: normal
+admonition:
+  icon:
+    note:
+      # light blue
+      stroke-color: #23A3DC
+    warning:
+      # secondary orange
+      stroke-color: #FFA60D
+    tip:
+      stroke-color: #F98113
+footer:
+  font-family: Barlow
+  recto:
+    left:
+      content: 'Liberale Demokraten - Die Sozialliberalen'
+  verso:
+    right:
+      content: 'Liberale Demokraten - Die Sozialliberalen'

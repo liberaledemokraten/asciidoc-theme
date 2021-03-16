@@ -1,0 +1,35 @@
+
+v4.1 (2021-03-16):
+  * Das ehemalige compass Theme in compass-2 umbenannt; kein Skriptsupport hierfür
+  * Ein grundauf erneuertes compass Theme erstellt
+  * Refactoring: Die einzelnen Themes leicht ausgebessert ohne Auswirkungen auf das PDF-Output
+
+v4.0 (2020-12-11):
+  * Unterstützung von 4 Themes; colored, plain, compass und braille für Personen mit Seheinschränkungen
+
+v3.0 (2020-12-08):
+  * Unterstützung von 2 verschiedenen Themes; das bisherige als plain und colored
+  * Zusammenführung der Changelogs in dieser Datei
+  
+v2.2 (2020-12-07):
+  * Logo rechtsbündig eingestellt und verkleinert
+  * Fußzeile auf Barlow umgestellt
+  * Inhaltsverzeichnis auf Barlow umgestellt
+  * H1 - H3 Überschriften auf LD-Orange eingestellt
+
+v2.1 (2020-11-13):
+  * OpenMoji hinzugefügt, sodass Emojis weitestgehend unterstützt werden
+
+v2.0 (2020-11-08):
+  * Das alte mit dem neuen Logo ersetzt
+  * Montserrat durch Barlow ersetzt
+  * Entsprechend des beschlossenen Styling Guides angepasst
+  * Fußzeilen hinzugefügt
+
+v1.1 (2020-06-14):
+  * Namensgebung der Fonts standardisiert
+  * Gem. AsciiDoc-Referenz M+ 2p als Fallback hinzugefügt
+  * Dokumentation hinzugefügt
+
+v1.0 (2020-11-13):
+  * Erste Version in Anlehnung zum vorgeschlagenen Styling Guide
