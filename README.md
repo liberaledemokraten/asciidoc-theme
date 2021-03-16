@@ -25,7 +25,7 @@ NOTE: The images and logos displayed in the linked PDFs may be protected, tradem
 
 ## Requirements
 
-* [Asciidoctor[(https://asciidoctor.org/)
+* [Asciidoctor](https://asciidoctor.org/)
 * Asciidoctor PDF
 * Bash (for [pdfconverter.sh](pdfconverter.sh))
 
@@ -36,7 +36,7 @@ The installation of the theme is quite straightforward. Just clone this reposito
 Simply install `asciidoctor` and `asciidoctor-pdf` with your distribution's package manager (e.g. `apt-get`). Should that not work for you, install `ruby` and call `gem install asciidoctor` and `gem install asciidoctor-pdf` in the shell.
 
 ### Windows Users
-For ruby users, this might be a bit trickier. Here, you can start by installing the [RubyInstaller](https://rubyinstaller.org) and then run `gem install asciidoctor` and `gem install asciidoctor-pdf` in the shell (e.g. PowerShell). To run the `pdfconverter.sh` script, you may need to install [Cygwin](httpw://cygwin.com). Alternatively, use a Linux distribution on your Windows machine using WSL, e.g. [Debian for WSL](https://www.microsoft.com/en-us/p/debian/9msvkqc78pk6) and proceed as described above for Linux users.
+For Windows users, this might be a bit trickier. Here, you can start by installing the [RubyInstaller](https://rubyinstaller.org) and then run `gem install asciidoctor` and `gem install asciidoctor-pdf` in the shell (e.g. PowerShell). To run the `pdfconverter.sh` script, you may need to install [Cygwin](httpw://cygwin.com). Alternatively, use a Linux distribution on your Windows machine using WSL, e.g. [Debian for WSL](https://www.microsoft.com/en-us/p/debian/9msvkqc78pk6) and proceed as described above for Linux users.
 
 ### Usage
 The classic usage (without `pdfconverter.sh`) is pretty straightforward as it is. Just call the following on your shell:
