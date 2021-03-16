@@ -2,6 +2,7 @@
 
 Following images are required:
 
+* `logo.png` - the logo to be displayed on each theme
 * `braille-cover.png` - a title cover for the "braille" theme
 * `colored-cover.png` - a title cover for the "colored" theme
 * `compass-cover.png` - A title cover for the "compass" theme
@@ -9,3 +10,4 @@ Following images are required:
 
 The mentioned files may contain trademarked or otherwise copyrighted ressources such as logos and other type of images.
 Therefore, the contents are not distributed along this repository.
+You may find sample PDF outputs for each theme linked in the top-level [README](../README.md) file.
