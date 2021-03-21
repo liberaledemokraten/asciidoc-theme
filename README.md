@@ -21,7 +21,7 @@ Some sample PDF files (in German) can be found in the below links:
 * [Sample Braille PDF](https://cloud.liberale-demokraten.de/s/WBmjN3PrrfmS63Z)
 * [Sample Plain Article PDF](https://cloud.liberale-demokraten.de/s/6pmLoz3x2bexBH7)
 
-NOTE: The images and logos displayed in the linked PDFs may be protected, trademarked or otherwise copyrighted. Therefore, they also aren't covered by the license of this project itself.
+NOTE: The images and logos displayed in the linked PDFs may be protected, trademarked or otherwise copyrighted. Therefore, they also aren't covered by the license of this project itself, unless explicitly stated so. See the [images](images/) folder for more.
 
 ## Requirements
 

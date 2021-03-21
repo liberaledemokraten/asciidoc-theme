@@ -8,6 +8,12 @@ Following images are required:
 * `compass-cover.png` - A title cover for the "compass" theme
 * `compass-cover-2.png` - A title cover for the "compass-2" theme
 
-The mentioned files may contain trademarked or otherwise copyrighted ressources such as logos and other type of images.
-Therefore, the contents are not distributed along this repository.
+The logo is not distributed along this project. You can however just add your own logo and name it `logo.png`.
+Preferably, it should have a transparent background, though a white background should be fine as well.
+
+The `braille-cover.png` image utilizes the "low-vision" icon from the SVG release of FontAwesome licensed under [CC BY 4.0](https://fontawesome.com/license/free).
+
+All cover images are part of this project and licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+So, you can share and adapt them as you desire for as long as you provide an appropriate credit.
+
 You may find sample PDF outputs for each theme linked in the top-level [README](../README.md) file.
