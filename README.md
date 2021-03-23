@@ -11,6 +11,8 @@ Following themes are part of this repository:
 * Compass-2 ([ld-theme_compass-2.yml](ld-theme_compass-2.yml)) - a plain theme with a compass on its title cover
 * Braille ([ld-theme_braille.yml](ld-theme_braille.yml)) - a plain theme with Atkinson Hyperlegible as font and a larger font size
 
+Please note that the themes may include our name, Liberale Demokraten - Die Sozialliberalen, at some parts, e.g. in the footer. But you should change that before you publish anything using these themes. The license of this project as well as the copyright notes below do not permit you to publish any content in the name of the authors or copyright holders unless explicitly permitted after all.
+
 ## Sample PDF Files
 Some sample PDF files (in German) can be found in the below links:
 
@@ -87,6 +89,8 @@ The themes are to be used to generate PDFs from AsciiDoc files. AsciiDoc files a
 The themes, documents and the shell script were written by [Kasim Dönmez](https://github.com/mkasimd) on behalf of the Liberale Demokraten - Die Sozialliberalen.
 
 ## Copyright
-Copyright © 2020 - present Liberale Demokraten - Die Sozialliberalen. Free use of this theme and the bash script is granted under the terms of the MIT license. For the full text of the license, see the [LICENSE.txt](LICENSE.txt) file. All documents such as adoc and PDF files with the exception of the software documentation and the software itself are licensed under [CC BY-SA 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/). Please note that some resources such as images and fonts, if present, might be licensed under different terms and be otherwise copyrighted or trademarked.
+Copyright © 2020 - present Liberale Demokraten - Die Sozialliberalen. Free use of this theme and the bash script is granted under the terms of the MIT license. For the full text of the license, see the [LICENSE.txt](LICENSE.txt) file. All documents such as adoc and PDF files with the exception of the software documentation and the software itself are licensed under [CC BY-SA 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
+
+Please note that some resources such as images and fonts, if present, might be licensed under different terms and be otherwise copyrighted or trademarked. See the directories [images](images/) and [fonts](fonts/) for further details.
 
 The use of the resources provided by this project shall be done in a way that your modifications to the code, distribution thereof or use of the provided files does not imply any endorsement by the authors or copyright holders of this project. You shall not use this project or contents thereof in the name of the authors or copyright holders unless explicitly permitted.
