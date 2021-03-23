@@ -1,4 +1,8 @@
 
+v4.2 (2021-03-23):
+  * Das "slashed-eye" im "braille" Theme durch das "low-vision" icon ersetzt
+  * Die Theme-Bilder der repository hinzugefügt
+
 v4.1 (2021-03-16):
   * Das ehemalige compass Theme in compass-2 umbenannt; kein Skriptsupport hierfür
   * Ein grundauf erneuertes compass Theme erstellt
