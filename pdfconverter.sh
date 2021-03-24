@@ -2,8 +2,8 @@
 #titel                  : pdfconverter.sh
 #beschreibung           : Dieses Skript erstellt eine PDF Datei aus einer AsciiDoc Datei mit Hilfe der ld-theme.
 #autor                  : Kasim Dönmez
-#datum                  : 20210316
-#version                : 4.1
+#datum                  : 20210323
+#version                : 4.2
 #nutzweise              : bash pdfconverter.sh document.adoc
 #bemerkungen            : Installiere `bash` und `asciidoctor-pdf` um dieses Skript auszuführen.
 #                         Der Dateipfad des Eingabedokumentes darf relativ zum Verzeichnis sein,
@@ -37,8 +37,8 @@ Info: Per Default wird das schlichte (plain) Thema genutzt
 Achtung: zuletzt eingegebene Optionen können vorige Argumente ersetzen
 
 Autor   : Kasim Dönmez
-Version : 4.1
-Datum   : 20210316"
+Version : 4.2
+Datum   : 20210323"
 
 if [ $# -eq 0 ]
   then
