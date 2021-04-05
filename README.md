@@ -89,7 +89,7 @@ The themes are to be used to generate PDFs from AsciiDoc files. AsciiDoc files a
 The themes, documents and the shell script were written by [Kasim Dönmez](https://github.com/mkasimd) on behalf of the Liberale Demokraten - Die Sozialliberalen.
 
 ## Copyright
-Copyright © 2020 - present Liberale Demokraten - Die Sozialliberalen. Free use of this theme and the bash script is granted under the terms of the MIT license. For the full text of the license, see the [LICENSE.txt](LICENSE.txt) file. All documents such as adoc and PDF files with the exception of the software documentation and the software itself are licensed under [CC BY-SA 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
+Copyright © 2020 - present Liberale Demokraten - Die Sozialliberalen. Free use of this theme and the bash script is granted under the terms of the BSD 3-Clause license. For the full text of the license, see the [LICENSE.txt](LICENSE.txt) file. All documents such as adoc and PDF files with the exception of the software documentation and the software itself are licensed under [CC BY-SA 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
 
 Please note that some resources such as images and fonts, if present, might be licensed under different terms and be otherwise copyrighted or trademarked. See the directories [images](images/) and [fonts](fonts/) for further details.
 
