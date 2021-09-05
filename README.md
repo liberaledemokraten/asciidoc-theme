@@ -74,9 +74,12 @@ options:
 
   -f=document.adoc | --filename=document.adoc
     convert the file 'document.adoc'
-	
+
   -h | --help
     show usage (in German) and exit
+
+  -v | --version
+    show versioning information (in German) and exit
 
 NOTE: The plain theme is set as the default theme. You can however also add a '-p' for it if you wish so.
 CAUTION: The latest option may overwrite previously entered ones.
