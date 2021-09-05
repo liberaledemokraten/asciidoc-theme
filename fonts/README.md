@@ -5,7 +5,7 @@ Following fonts are required:
 * [Atkinson Hyperlegible](https://brailleinstitute.org/freefont)
 * [Barlow](https://github.com/jpt/barlow)
 * [M+ 1mn & M+ 2p](https://mplus-fonts.osdn.jp/about-en.html)
-* [Vollkorn](https://github.com/FAlthausen/Vollkorn-Typeface)
+* [Inter](https://rsms.me/inter/)
 * [OpenMoji](https://openmoji.org/)
 
 All of the mentioned fonts are licensed in a way you can use or distribute freely. You may need to download them yourself to use the AsciiDoc themes distributed within this repository.

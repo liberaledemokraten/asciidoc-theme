@@ -1,8 +1,11 @@
 = Titel der Publikation
 Autor <author@liberale-demokraten.de>; Co-Autor <co-author@liberale-demokraten.de>
-v4.1, Stand: 16. März 2021
+v5.0, Stand: 5. September 2021
 :doctype: book
 :icons: font
+:hyphens: de
+:keywords: AsciiDoc, Sample Document, LD-Theme
+:page-keywords: {keywords}
 
 NOTE: Dies ist ein regulärer Hinweis.
 

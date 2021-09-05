@@ -1,7 +1,7 @@
 #titel                  : ld-theme_plain.yml
 #beschreibung           : Dies ist ein AsciiDoc Theme für die Liberalen Demokraten.
 #autor                  : Kasim Dönmez
-#datum                  : 20210316
+#datum                  : 20210905
 #nutzweise              : asciidoctor-pdf -a pdf-theme=ld-theme_plain.yml -a pdf-fontsdir=fonts/ document.adoc
 #bemerkungen            : Installiere `asciidoctor` und `asciidoctor-pdf` um dieses Theme zu nutzen.
 #
@@ -18,11 +18,11 @@ font:
       italic: Barlow-italic.ttf
       bold: Barlow-bold.ttf
       bold_italic: Barlow-bold_italic.ttf
-    Vollkorn:
-      normal: Vollkorn-regular.ttf
-      italic: Vollkorn-italic.ttf
-      bold: Vollkorn-bold.ttf
-      bold_italic: Vollkorn-bold_italic.ttf
+    Inter:
+      normal: Inter-regular.ttf
+      italic: Inter-italic.ttf
+      bold: Inter-bold.ttf
+      bold_italic: Inter-bold_italic.ttf
     M+ 1mn:
       normal: mplus-1mn-regular.ttf
       bold: mplus-1mn-bold.ttf
@@ -39,14 +39,14 @@ font:
       italic: OpenMoji-Color.ttf
       bold_italic: OpenMoji-Color.ttf
   fallbacks:
-    - Vollkorn
+    - Inter
     - M+ 2p
     - M+ 1mn
     - openmoji
 base:
   # grey
   font-color: #212529
-  font-family: Vollkorn
+  font-family: Inter
   font-style: normal
   font-size: 12
 title-page:
@@ -91,7 +91,7 @@ link:
   text-decoration: none
 footnotes:
   font-color: #010038
-  font-family: Vollkorn
+  font-family: Inter
   font-style: normal
 admonition:
   icon:

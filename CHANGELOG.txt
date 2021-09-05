@@ -1,4 +1,10 @@
 
+v5.0 (2021-09-05):
+  * Vollkorn durch Inter ersetzt
+  * OpenMoji v13.1 Update
+  * Hyphens und Schlüsselwörter in die Beispiel-Dateien eingefügt
+  * Refactoring: pdfconverter Skript modifiziert
+
 v4.2 (2021-03-23):
   * Das "slashed-eye" im "braille" Theme durch das "low-vision" icon ersetzt
   * Die Theme-Bilder der repository hinzugefügt
@@ -30,7 +36,7 @@ v2.0 (2020-11-08):
   * Entsprechend des beschlossenen Styling Guides angepasst
   * Fußzeilen hinzugefügt
 
-v1.1 (2020-06-14):
+v1.1 (2020-11-14):
   * Namensgebung der Fonts standardisiert
   * Gem. AsciiDoc-Referenz M+ 2p als Fallback hinzugefügt
   * Dokumentation hinzugefügt
